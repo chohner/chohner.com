@@ -1,0 +1,32 @@
+<div class="toc">
+  {
+    ["Projects", "Publications", "Patents"].map((link) => (
+      <div class="toc-box content-box">
+        <a href={`#${link}`}>
+          <h3>{link}</h3>
+        </a>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .toc {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+
+  .toc-box {
+    text-align: center;
+    padding: 0;
+  }
+
+  .toc-box:is(:hover, :focus-within) {
+    background-color: rgb(var(--accent));
+  }
+
+  h3 {
+    padding: 1rem;
+  }
+</style>

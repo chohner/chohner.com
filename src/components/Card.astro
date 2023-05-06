@@ -1,0 +1,46 @@
+---
+export interface Props {
+  title: string;
+  date: string;
+  body: string;
+  href: string;
+  image?: ImageMetadata;
+}
+
+const { href, title, date, body, image } = Astro.props;
+---
+
+<li class="link-card content-box">
+  <a href={href} target="_blank">
+    <h3>
+      {date} &rarr;<br />{title}
+    </h3>
+    {image && <img src={image.src} width={image.width} height={image.height} />}
+    <p>
+      {body}
+    </p>
+  </a>
+</li>
+
+<style>
+  .link-card {
+    list-style: none;
+    display: flex;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .link-card:is(:hover, :focus-within) {
+    background-color: rgb(var(--accent));
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 100%);
+    border-radius: 0.4rem;
+  }
+</style>

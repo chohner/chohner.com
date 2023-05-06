@@ -1,0 +1,65 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AboutMe from "../components/AboutMe.astro";
+import Projects from "../components/Projects.astro";
+import Patents from "../components/Patents.astro";
+import Publications from "../components/Publications.astro";
+import TOC from "../components/TOC.astro";
+---
+
+<Layout title="Christoph Omid Hohnerlein">
+  <main>
+    <h1>Christoph Omid Hohnerlein</h1>
+    <AboutMe />
+    <TOC />
+    <h2 id="Projects">Projects</h2>
+    <Projects />
+    <h2 id="Publications">Publications</h2>
+    <Publications />
+    <h2 id="Patents">Patents</h2>
+    <Patents />
+
+    <div class="scroll-top">
+      <!-- See https://dev.to/jackherizsmith/making-a-back-to-top-button-without-javascript-2ej6 -->
+      <a class="scroll-top__link" href="#">↑ Back to top ↑</a>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 100ch;
+    position: relative;
+  }
+
+  .sectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .scroll-top {
+    position: absolute;
+    top: 110vh;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .scroll-top__link:hover {
+    background-color: rgb(var(--accent));
+  }
+
+  .scroll-top__link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 96vh;
+    padding: 0.5rem;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    border: 5px solid rgba(0, 0, 0, 80%);
+    text-decoration: none;
+    color: black;
+  }
+</style>

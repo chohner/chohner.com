@@ -1,0 +1,103 @@
+---
+import Card, { Props as CardProps } from "../components/Card.astro";
+
+import polygogoImg from "../assets/polygogo.jpg";
+import beamformImg from "../assets/beamform_s.jpg";
+import convolverImg from "../assets/convolver_s.jpg";
+import dokoButlerImg from "../assets/doko_butler.png";
+import sfaImg from "../assets/sfa.jpg";
+import polygonImg from "../assets/polygon.jpg";
+import shftImg from "../assets/shft.jpg";
+import hapticwaveImg from "../assets/hapticwave.jpg";
+import colorationImg from "../assets/wfs_coloration_s.jpg";
+
+const projects: CardProps[] = [
+  {
+    date: "2019-06",
+    title: "E-RM Polygogo ",
+    href: "https://www.e-rm.de/2019/09/04/polygogo-release/",
+    body: "Eurorack-compatible oscillator module based on Polygon Waveform Synthesis (Built by friends @E-RM).",
+    image: polygogoImg,
+  },
+  {
+    date: "2019-01",
+    title: "Doppelkopf Butler",
+    href: "https://chohner.github.io/doko-butler/",
+    body: "Progressive Web App that keeps score during a game of Doppelkopf, built in React.",
+    image: dokoButlerImg,
+  },
+  {
+    date: "2018-09",
+    title: "Granular Convolver",
+    href: "http://daily.redbullmusicacademy.com/2018/09/the-granular-convolver/",
+    body: "Helped build 100 hand-held convolver for the 20th anniversary of the Red Bull Music Academy.",
+    image: convolverImg,
+  },
+  {
+    date: "2017-06",
+    title: "Sound Field Analysis Toolbox",
+    href: "https://github.com/AppliedAcousticsChalmers/sound_field_analysis-py/",
+    body: "Analyze, visualize and process sound field data recorded by spherical microphone arrays. Python port of the SOFiA Matlab toolbox, now developed at Chalmers University.",
+    image: sfaImg,
+  },
+  {
+    date: "2016-02",
+    title: "Beamforming for Transaural Audio",
+    href: "https://chohner.com/docs/hohnerlein2016_ma_thesis_beamforming_CTC.pdf",
+    body: "A mixed, array-based speaker system, where traditional LSFI beamforming and path estimation are simultaneously employed in their respective comfortable frequency range.",
+    image: beamformImg,
+  },
+  {
+    date: "2016-01",
+    title: "Polygon Waveform Synthesis",
+    href: "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/continuous-order-polygonalwaveform-synthesis.pdf?c=icmc;idno=bbp2372.2016.104;format=pdf",
+    body: "A method of generating musical waveforms which relies on sampling a variable polygon in polar space with a rotating phasor.",
+    image: polygonImg,
+  },
+  {
+    date: "2015-11",
+    title: "SHFT @ Grey Area",
+    href: "https://immersivelab.zhdk.ch/?page_id=3029",
+    body: "Interactive AV installation for ZHDK's Immersive Lab installation, featuring 360 deg projection, multi-user interaction and 16 channel spatialisation.",
+    image: shftImg,
+  },
+  {
+    date: "2015-08",
+    title: "HapticWave",
+    href: "http://dl.acm.org/citation.cfm?id=2929469",
+    body: "Designed and tested the hard/software of a prototype that delivers directional haptic cues to your hand to augment VR.",
+    image: hapticwaveImg,
+  },
+  {
+    date: "2014-05",
+    title: "Coloration in Wave Field Synthesis",
+    href: "https://immersivelab.zhdk.ch/?page_id=3029",
+    body: "Investigated the perceived coloration of a synthesized point source presented by stereophony and Wave Field Synthesis using between 14 and 3584 speakers.",
+    image: colorationImg,
+  },
+];
+---
+
+<ul role="list" class="link-card-grid">
+  {
+    projects.map((p) => (
+      <Card
+        href={p.href}
+        date={p.date}
+        title={p.title}
+        body={p.body}
+        image={p.image}
+      />
+    ))
+  }
+</ul>
+
+<style>
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+</style>

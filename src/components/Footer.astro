@@ -1,0 +1,28 @@
+---
+const currentTime = new Date();
+const dateOptions = {
+  seconds: "numeric",
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+};
+const buildTime = currentTime.toLocaleString("en-UK", dateOptions);
+---
+
+<footer>
+  Built with <a href="https://astro.build/" target="_blank">Astro</a>. <a
+    href="https://github.com/chohner/chohner.com"
+    target="_blank">Source Code</a
+  >. Last update: {buildTime}
+</footer>
+
+<style>
+  footer {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  footer > a {
+    font-weight: 600;
+  }
+</style>

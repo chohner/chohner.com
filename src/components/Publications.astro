@@ -1,0 +1,8 @@
+---
+import publicationsBib from "./publications.bib?raw";
+import { bibtexToHTML } from "./citations/bibtexToHTML";
+---
+
+<div class="content-box">
+  <Fragment set:html={bibtexToHTML(publicationsBib)} />
+</div>
