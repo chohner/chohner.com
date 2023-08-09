@@ -1,6 +1,7 @@
 ---
 import Card, { Props as CardProps } from "../components/Card.astro";
 
+import faradgangLogo from "../assets/faradgang_logo_small_bg.svg";
 import polygogoImg from "../assets/polygogo.jpg";
 import beamformImg from "../assets/beamform_s.jpg";
 import convolverImg from "../assets/convolver_s.jpg";
@@ -15,10 +16,17 @@ import bathesis from "../assets/hohnerlein2013_ba_thesis_wfs_coloration.pdf";
 
 const projects: CardProps[] = [
   {
+    date: "2020-10",
+    title: "Faradgang Berlin e.V.",
+    href: "https://faradgang.berlin",
+    body: "Social Bike Club that fixes bikes for and with people in need.",
+    image: faradgangLogo,
+  },
+  {
     date: "2019-06",
-    title: "E-RM Polygogo ",
+    title: "E-RM Polygogo",
     href: "https://www.e-rm.de/2019/09/04/polygogo-release/",
-    body: "Eurorack-compatible oscillator module based on Polygon Waveform Synthesis (Built by friends @E-RM).",
+    body: "Eurorack-compatible oscillator module based on Polygon Waveform Synthesis, built by friends @E-RM.",
     image: polygogoImg,
   },
   {
