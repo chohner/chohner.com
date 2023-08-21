@@ -11,7 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@fontsource/eczar": "^5.0.8",
+    "@fontsource/eczar": "^5.0.9",
     "@fontsource/ibm-plex-mono": "^5.0.8",
     "astro": "^2.10.7",
     "biblatex-csl-converter": "^2.1.0",
