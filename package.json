@@ -11,9 +11,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@fontsource/eczar": "^5.0.11",
+    "@fontsource/eczar": "^5.0.12",
     "@fontsource/ibm-plex-mono": "^5.0.8",
-    "astro": "^2.10.14",
+    "astro": "^3.1.0",
     "biblatex-csl-converter": "^2.1.0",
     "citeproc": "^2.4.63"
   },
