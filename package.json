@@ -18,6 +18,6 @@
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
-    "eslint-plugin-astro": "^0.30.0"
+    "eslint-plugin-astro": "^0.31.0"
   }
 }
