@@ -107,17 +107,7 @@ const projects: CardProps[] = [
 ---
 
 <ul class="link-card-grid">
-  {
-    projects.map((p) => (
-      <Card
-        href={p.href}
-        date={p.date}
-        title={p.title}
-        body={p.body}
-        image={p.image}
-      />
-    ))
-  }
+  {projects.map((p) => <Card {...p} />)}
 </ul>
 
 <style>
