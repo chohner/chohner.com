@@ -21,6 +21,8 @@ const projects: CardProps[] = [
     href: "https://faradgang.berlin",
     body: "Non-profit Bike NGO that fixes bikes for and with people in need.",
     image: faradgangLogo,
+    imageAlt:
+      "Childishly drawn bicycle with the words FARADGANG e.V. underneath.",
   },
   {
     date: "2019-06",
@@ -28,6 +30,8 @@ const projects: CardProps[] = [
     href: "https://www.e-rm.de/2019/09/04/polygogo-release/",
     body: "Digital oscillator for Eurorack, based on Polygon Waveform Synthesis. Built by friends @E-RM.",
     image: polygogoImg,
+    imageAlt:
+      "Top-down image of an almost square electronic instrument. The top-right quarter is a screen showing a deformed triangle, with some buttons and knobs underneath; the left half is filled with vertical sliders.",
   },
   {
     date: "2019-01",
@@ -35,6 +39,7 @@ const projects: CardProps[] = [
     href: "https://chohner.github.io/doko-butler/",
     body: "Progressive Web App that keeps score during a game of Doppelkopf, built in React.",
     image: dokoButlerImg,
+    imageAlt: "A screenshot of an website that keeps score of 4 players",
   },
   {
     date: "2018-09",
@@ -42,6 +47,8 @@ const projects: CardProps[] = [
     href: "http://daily.redbullmusicacademy.com/2018/09/the-granular-convolver/",
     body: "Helped build 100 hand-held convolver for the 20th anniversary of the Red Bull Music Academy.",
     image: convolverImg,
+    imageAlt:
+      "An large number of metallic devices, layed out in an orderly pattern. Each has a large knob at the bottom, 4 buttons and a horizontal slider at the top.",
   },
   {
     date: "2017-06",
@@ -49,6 +56,8 @@ const projects: CardProps[] = [
     href: "https://github.com/AppliedAcousticsChalmers/sound_field_analysis-py/",
     body: "Analyze, visualize and process sound field data recorded by spherical microphone arrays. Python port of the SOFiA Matlab toolbox, now developed at Chalmers University.",
     image: sfaImg,
+    imageAlt:
+      "A computer plot, showing the sensitivity pattern of a microphone as a multi-colored elongated shape, similar to a balloon.",
   },
   {
     date: "2016-02",
@@ -56,6 +65,8 @@ const projects: CardProps[] = [
     href: mathesis,
     body: "A mixed, array-based speaker system, where traditional LSFI beamforming and path estimation are simultaneously employed in their respective comfortable frequency range.",
     image: beamformImg,
+    imageAlt:
+      "A computer plot, showing the pattern of a speaker array, showing the angle on the x-axis, frequency on the y-axis and the amplitude as color. A dark and bright corridor can be seen at marked locations.",
   },
   {
     date: "2016-01",
@@ -63,6 +74,7 @@ const projects: CardProps[] = [
     href: "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/continuous-order-polygonalwaveform-synthesis.pdf?c=icmc;idno=bbp2372.2016.104;format=pdf",
     body: "A method of generating musical waveforms which relies on sampling a variable polygon in polar space with a rotating phasor.",
     image: polygonImg,
+    imageAlt: "An abstract shape next to a repeating pattern.",
   },
   {
     date: "2015-11",
@@ -70,6 +82,8 @@ const projects: CardProps[] = [
     href: "https://immersivelab.zhdk.ch/?page_id=3029",
     body: "Interactive AV installation for ZHDK's Immersive Lab installation, featuring 360 deg projection, multi-user interaction and 16 channel spatialisation.",
     image: shftImg,
+    imageAlt:
+      "A screenshot of abstract objects against a dark background, with one bright surface.",
   },
   {
     date: "2015-08",
@@ -77,6 +91,8 @@ const projects: CardProps[] = [
     href: "http://dl.acm.org/citation.cfm?id=2929469",
     body: "Designed and tested the hard/software of a prototype that delivers directional haptic cues to your hand to augment VR.",
     image: hapticwaveImg,
+    imageAlt:
+      "A person sitting wearing VR goggles, sitting in front of a computer, with their hand placed on metal plate. The screen of the computer is showing a virtual representation of the same screne.",
   },
   {
     date: "2014-05",
@@ -84,11 +100,13 @@ const projects: CardProps[] = [
     href: bathesis,
     body: "Investigated the perceived coloration of a synthesized point source presented by stereophony and Wave Field Synthesis using between 14 and 3584 speakers.",
     image: colorationImg,
+    imageAlt:
+      "A computer plot of a ring of white speaker, some of which are darker. The background is a color pattern that is concentrated around the gray speakers and fades to white. Several positions inside the circle are marked with an 'x'.",
   },
 ];
 ---
 
-<ul role="list" class="link-card-grid">
+<ul class="link-card-grid">
   {
     projects.map((p) => (
       <Card

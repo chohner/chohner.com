@@ -5,9 +5,10 @@ export interface Props {
   body: string;
   href: string;
   image?: ImageMetadata;
+  imageAlt?: string;
 }
 
-const { href, title, date, body, image } = Astro.props;
+const { href, title, date, body, image, imageAlt } = Astro.props;
 ---
 
 <li class="link-card content-box">
@@ -15,7 +16,16 @@ const { href, title, date, body, image } = Astro.props;
     <h3>
       {date} &rarr;<br />{title}
     </h3>
-    {image && <img src={image.src} width={image.width} height={image.height} />}
+    {
+      image && (
+        <img
+          src={image.src}
+          width={image.width}
+          height={image.height}
+          alt={imageAlt ?? ""}
+        />
+      )
+    }
     <p>
       {body}
     </p>

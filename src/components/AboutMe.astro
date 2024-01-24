@@ -1,3 +1,7 @@
+---
+const replaceEmailJsEvent = "this.href=this.href.replace('@@','.')";
+---
+
 <div class="about-me content-box">
   <p>
     I write software at
@@ -17,7 +21,8 @@
   <p>
     Say hello via <a
       href="mailto:mail@chohner@@com"
-      onmouseover="this.href=this.href.replace('@@','.')">mail[at]chohner.com</a
+      onmouseover={replaceEmailJsEvent}
+      onfocus={replaceEmailJsEvent}>mail[at]chohner.com</a
     >, <a href="https://github.com/chohner/" target="_blank">Github</a> or
     <a href="https://www.linkedin.com/in/chohner/" target="_blank">LinkedIn</a>.
   </p>
