@@ -14,14 +14,14 @@
   "dependencies": {
     "@fontsource/eczar": "^5.0.18",
     "@fontsource/ibm-plex-mono": "^5.0.8",
-    "astro": "^4.2.6",
+    "astro": "^4.3.2",
     "biblatex-csl-converter": "^2.1.0",
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
-    "eslint-plugin-astro": "^0.31.3",
+    "eslint-plugin-astro": "^0.31.4",
     "eslint-plugin-jsx-a11y": "^6.8.0"
   }
 }
