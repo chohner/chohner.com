@@ -19,7 +19,7 @@
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.2",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.31.4",
     "eslint-plugin-jsx-a11y": "^6.8.0"
