@@ -15,7 +15,7 @@
     "@fontsource/eczar": "^5.1.0",
     "@fontsource/ibm-plex-mono": "^5.1.0",
     "astro": "^4.16.13",
-    "biblatex-csl-converter": "^2.1.0",
+    "biblatex-csl-converter": "^3.0.1",
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
