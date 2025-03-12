@@ -27,6 +27,7 @@
   "packageManager": "pnpm@10.6.2",
   "pnpm": {
     "onlyBuiltDependencies": [
+      "core-js-pure",
       "esbuild"
     ]
   }
