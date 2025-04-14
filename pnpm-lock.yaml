@@ -18,8 +18,8 @@ importers:
         specifier: ^5.6.1
         version: 5.6.1(jiti@2.4.2)(rollup@4.39.0)(typescript@5.7.2)
       biblatex-csl-converter:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^3.1.1
+        version: 3.1.1
       citeproc:
         specifier: ^2.4.63
         version: 2.4.63
@@ -69,8 +69,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/runtime-corejs3@7.26.10':
-    resolution: {integrity: sha512-uITFQYO68pMEYR46AHgQoyBg7KPPJDAbGn4jUTIRgCFJIp88MIBUianVOplhZDEec07bp9zIyr4Kp0FCyQzmWg==}
+  '@babel/runtime-corejs3@7.27.0':
+    resolution: {integrity: sha512-UWjX6t+v+0ckwZ50Y5ShZLnlk95pP5MyW/pon9tiYzl3+18pkTHTFNTKr7rQbfRXPkowt2QAn30o1b6oswszew==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.27.0':
@@ -719,8 +719,8 @@ packages:
   base-64@1.0.0:
     resolution: {integrity: sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg==}
 
-  biblatex-csl-converter@3.0.1:
-    resolution: {integrity: sha512-ZC8RArqGxAT73aZ6bz58JLEZUJtig7knznqwpL0agk+6nEav00w0se/vSnseqdnYEGscFLJ/EuejXWiq4NYoLQ==}
+  biblatex-csl-converter@3.1.1:
+    resolution: {integrity: sha512-WNGA3tL1jJE/6EQBFC3l/M4YjZLEWOWGPILt0ZhrN1uN42b2YJUbZmAW5Eifv9REZaObv10gh5FSDtIeirfDsg==}
     engines: {node: '>=16'}
 
   boxen@8.0.1:
@@ -2318,7 +2318,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.0
 
-  '@babel/runtime-corejs3@7.26.10':
+  '@babel/runtime-corejs3@7.27.0':
     dependencies:
       core-js-pure: 3.41.0
       regenerator-runtime: 0.14.1
@@ -2942,7 +2942,7 @@ snapshots:
 
   base-64@1.0.0: {}
 
-  biblatex-csl-converter@3.0.1:
+  biblatex-csl-converter@3.1.1:
     dependencies:
       xregexp: 5.1.2
 
@@ -4891,7 +4891,7 @@ snapshots:
 
   xregexp@5.1.2:
     dependencies:
-      '@babel/runtime-corejs3': 7.26.10
+      '@babel/runtime-corejs3': 7.27.0
 
   xxhash-wasm@1.1.0: {}
 
