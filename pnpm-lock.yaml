@@ -18,8 +18,8 @@ importers:
         specifier: ^5.6.1
         version: 5.6.1(jiti@2.4.2)(rollup@4.39.0)(typescript@5.7.2)
       biblatex-csl-converter:
-        specifier: ^3.1.1
-        version: 3.1.1
+        specifier: ^3.2.2
+        version: 3.2.2
       citeproc:
         specifier: ^2.4.63
         version: 2.4.63
@@ -719,8 +719,8 @@ packages:
   base-64@1.0.0:
     resolution: {integrity: sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg==}
 
-  biblatex-csl-converter@3.1.1:
-    resolution: {integrity: sha512-WNGA3tL1jJE/6EQBFC3l/M4YjZLEWOWGPILt0ZhrN1uN42b2YJUbZmAW5Eifv9REZaObv10gh5FSDtIeirfDsg==}
+  biblatex-csl-converter@3.2.2:
+    resolution: {integrity: sha512-Tih/Vp+CEKNJPUGXfXiVKE60cUbDaqWjuJI4/1T9PuWkbbS8awCxiGuXwDhQSwnWZXesnbxnILMaLECfLk16Bg==}
     engines: {node: '>=16'}
 
   boxen@8.0.1:
@@ -2942,7 +2942,7 @@ snapshots:
 
   base-64@1.0.0: {}
 
-  biblatex-csl-converter@3.1.1:
+  biblatex-csl-converter@3.2.2:
     dependencies:
       xregexp: 5.1.2
 
