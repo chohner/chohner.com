@@ -15,8 +15,8 @@ importers:
         specifier: ^5.2.6
         version: 5.2.6
       astro:
-        specifier: ^5.12.8
-        version: 5.12.8(@types/node@24.2.0)(jiti@2.4.2)(rollup@4.46.2)(typescript@5.7.2)
+        specifier: ^5.12.9
+        version: 5.12.9(@types/node@24.2.1)(jiti@2.4.2)(rollup@4.46.2)(typescript@5.7.2)
       biblatex-csl-converter:
         specifier: ^3.2.2
         version: 3.2.2
@@ -587,8 +587,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@24.2.0':
-    resolution: {integrity: sha512-3xyG3pMCq3oYCNg7/ZP+E1ooTaGB4cG8JWRsqqOYQdbWNY4zbaV0Ennrd7stjiJEFZCaybcIgpTjJWHRfBSIDw==}
+  '@types/node@24.2.1':
+    resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -710,8 +710,8 @@ packages:
     resolution: {integrity: sha512-JepyLROIad6f44uyqMF6HKE2QbunNzp3mYKRcPoDGt0QkxXmH222FAFC64WTyQu2Kg8NNEXHTN/sWuUId9sSxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.12.8:
-    resolution: {integrity: sha512-KkJ7FR+c2SyZYlpakm48XBiuQcRsrVtdjG5LN5an0givI/tLik+ePJ4/g3qrAVhYMjJOxBA2YgFQxANPiWB+Mw==}
+  astro@5.12.9:
+    resolution: {integrity: sha512-cZ7kZ61jyE5nwSrFKSRyf5Gds+uJELqQxJFqMkcgiWQvhWZJUSShn8Uz3yc9WLyLw5Kim5P5un9SkJSGogfEZQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1962,8 +1962,8 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  smol-toml@1.4.1:
-    resolution: {integrity: sha512-CxdwHXyYTONGHThDbq5XdwbFsuY4wlClRGejfE2NtwUtiHYsP1QtNsHb/hnj31jKYSchztJsaA8pSQoVzkfCFg==}
+  smol-toml@1.4.2:
+    resolution: {integrity: sha512-rInDH6lCNiEyn3+hH8KVGFdbjc099j47+OSgbMrfDYX1CmXLfdKd7qi6IfcWj2wFxvSVkuI46M+wPGYfEOEj6g==}
     engines: {node: '>= 18'}
 
   source-map-js@1.2.1:
@@ -2384,7 +2384,7 @@ snapshots:
       remark-rehype: 11.1.2
       remark-smartypants: 3.0.2
       shiki: 3.9.2
-      smol-toml: 1.4.1
+      smol-toml: 1.4.2
       unified: 11.0.5
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -2784,7 +2784,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
 
   '@types/hast@3.0.4':
     dependencies:
@@ -2802,7 +2802,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@24.2.0':
+  '@types/node@24.2.1':
     dependencies:
       undici-types: 7.10.0
 
@@ -2962,7 +2962,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.12.8(@types/node@24.2.0)(jiti@2.4.2)(rollup@4.46.2)(typescript@5.7.2):
+  astro@5.12.9(@types/node@24.2.1)(jiti@2.4.2)(rollup@4.46.2)(typescript@5.7.2):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.1
@@ -3009,7 +3009,7 @@ snapshots:
       rehype: 13.0.2
       semver: 7.7.2
       shiki: 3.9.2
-      smol-toml: 1.4.1
+      smol-toml: 1.4.2
       tinyexec: 0.3.2
       tinyglobby: 0.2.14
       tsconfck: 3.1.6(typescript@5.7.2)
@@ -3018,8 +3018,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.1
       vfile: 6.0.3
-      vite: 6.3.5(@types/node@24.2.0)(jiti@2.4.2)
-      vitefu: 1.1.1(vite@6.3.5(@types/node@24.2.0)(jiti@2.4.2))
+      vite: 6.3.5(@types/node@24.2.1)(jiti@2.4.2)
+      vitefu: 1.1.1(vite@6.3.5(@types/node@24.2.1)(jiti@2.4.2))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -4774,7 +4774,7 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  smol-toml@1.4.1: {}
+  smol-toml@1.4.2: {}
 
   source-map-js@1.2.1: {}
 
@@ -5034,7 +5034,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@6.3.5(@types/node@24.2.0)(jiti@2.4.2):
+  vite@6.3.5(@types/node@24.2.1)(jiti@2.4.2):
     dependencies:
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
@@ -5043,13 +5043,13 @@ snapshots:
       rollup: 4.46.2
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       fsevents: 2.3.3
       jiti: 2.4.2
 
-  vitefu@1.1.1(vite@6.3.5(@types/node@24.2.0)(jiti@2.4.2)):
+  vitefu@1.1.1(vite@6.3.5(@types/node@24.2.1)(jiti@2.4.2)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@24.2.0)(jiti@2.4.2)
+      vite: 6.3.5(@types/node@24.2.1)(jiti@2.4.2)
 
   web-namespaces@2.0.1: {}
 
