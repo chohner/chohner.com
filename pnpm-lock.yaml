@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fontsource/eczar':
-        specifier: ^5.2.7
-        version: 5.2.7
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/ibm-plex-mono':
         specifier: ^5.2.6
         version: 5.2.6
@@ -277,8 +277,8 @@ packages:
     resolution: {integrity: sha512-Z5kJ+wU3oA7MMIqVR9tyZRtjYPr4OC004Q4Rw7pgOKUOKkJfZ3O24nz3WYfGRpMDNmcOi3TwQOmgm7B7Tpii0w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fontsource/eczar@5.2.7':
-    resolution: {integrity: sha512-8Kuvjk2wA8cS8mJ2lj69xjbwUfwOksfaZAHDYtRoGCv/8t+fxAd3MdQ8vMQcXOVHL1EuCCbGvsk4wfnlfHKydQ==}
+  '@fontsource/eczar@5.2.8':
+    resolution: {integrity: sha512-Kifyxzqbqa1iXCLJ9Fa1yfDe+7bcai8FqJN3iEHYuFVTc7WXo67a95qb/+tUCnL4gwt7N6PCmdGeLJO/JLGC8g==}
 
   '@fontsource/ibm-plex-mono@5.2.6':
     resolution: {integrity: sha512-LTZJNTcpoT19fmwERZNMDI+ljHueuyhF2Qn+bICJ4Y4hxBLAAoJ2MRsGnyp0QNutW6t/25eyZpvaUK1LDrCo7Q==}
@@ -2596,7 +2596,7 @@ snapshots:
       '@eslint/core': 0.15.2
       levn: 0.4.1
 
-  '@fontsource/eczar@5.2.7': {}
+  '@fontsource/eczar@5.2.8': {}
 
   '@fontsource/ibm-plex-mono@5.2.6': {}
 
