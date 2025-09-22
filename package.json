@@ -12,7 +12,7 @@
     "lint": "eslint 'src/**/*.{js,astro}'"
   },
   "dependencies": {
-    "@fontsource/eczar": "^5.2.7",
+    "@fontsource/eczar": "^5.2.8",
     "@fontsource/ibm-plex-mono": "^5.2.6",
     "astro": "^5.13.10",
     "biblatex-csl-converter": "^3.2.2",
