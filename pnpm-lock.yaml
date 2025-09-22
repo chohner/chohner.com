@@ -12,8 +12,8 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7
       '@fontsource/ibm-plex-mono':
-        specifier: ^5.2.6
-        version: 5.2.6
+        specifier: ^5.2.7
+        version: 5.2.7
       astro:
         specifier: ^5.13.7
         version: 5.13.7(@types/node@24.4.0)(jiti@2.4.2)(rollup@4.50.2)(typescript@5.7.2)
@@ -280,8 +280,8 @@ packages:
   '@fontsource/eczar@5.2.7':
     resolution: {integrity: sha512-8Kuvjk2wA8cS8mJ2lj69xjbwUfwOksfaZAHDYtRoGCv/8t+fxAd3MdQ8vMQcXOVHL1EuCCbGvsk4wfnlfHKydQ==}
 
-  '@fontsource/ibm-plex-mono@5.2.6':
-    resolution: {integrity: sha512-LTZJNTcpoT19fmwERZNMDI+ljHueuyhF2Qn+bICJ4Y4hxBLAAoJ2MRsGnyp0QNutW6t/25eyZpvaUK1LDrCo7Q==}
+  '@fontsource/ibm-plex-mono@5.2.7':
+    resolution: {integrity: sha512-MKAb8qV+CaiMQn2B0dIi1OV3565NYzp3WN5b4oT6LTkk+F0jR6j0ZN+5BKJiIhffDC3rtBULsYZE65+0018z9w==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2598,7 +2598,7 @@ snapshots:
 
   '@fontsource/eczar@5.2.7': {}
 
-  '@fontsource/ibm-plex-mono@5.2.6': {}
+  '@fontsource/ibm-plex-mono@5.2.7': {}
 
   '@humanfs/core@0.19.1': {}
 
