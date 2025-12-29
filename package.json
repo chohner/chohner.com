@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "deploy": "source .env && npm run build && rsync --update -raz --progress ./dist/* $DEPLOY_LOCATION",
     "astro": "astro",
-    "lint": "eslint 'src/**/*.{js,astro}'"
+    "lint": "oxlint"
   },
   "dependencies": {
     "@fontsource/eczar": "^5.2.8",
@@ -19,10 +19,7 @@
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.50.1",
-    "eslint": "^9.37.0",
-    "eslint-plugin-astro": "^1.5.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2"
+    "oxlint": "^1.36.0"
   },
   "packageManager": "pnpm@10.18.2",
   "pnpm": {
