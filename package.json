@@ -21,7 +21,7 @@
   "devDependencies": {
     "oxlint": "^1.36.0"
   },
-  "packageManager": "pnpm@10.18.2",
+  "packageManager": "pnpm@10.26.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "core-js-pure",
