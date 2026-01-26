@@ -14,7 +14,7 @@
   "dependencies": {
     "@fontsource/eczar": "^5.2.8",
     "@fontsource/ibm-plex-mono": "^5.2.7",
-    "astro": "^5.16.11",
+    "astro": "^5.16.15",
     "biblatex-csl-converter": "^3.2.2",
     "citeproc": "^2.4.63"
   },
