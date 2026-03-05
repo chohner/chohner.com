@@ -7,7 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "source .env && npm run build && rsync --update -raz --progress ./dist/* $DEPLOY_LOCATION",
+    "deploy": "pnpm run build && rsync -avz --update --progress ./dist/ $DEPLOY_LOCATION/ && rsync -avz --delete --progress ./dist/_astro/ $DEPLOY_LOCATION/_astro/",
     "astro": "astro",
     "lint": "oxlint"
   },
