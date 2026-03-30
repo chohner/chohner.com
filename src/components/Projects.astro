@@ -2,6 +2,7 @@
 import Card, { type Props as CardProps } from "../components/Card.astro";
 
 import faradgangLogo from "../assets/faradgang_logo_small_bg.svg";
+import faradgangLogoColor from "../assets/fg_logo_color.jpg";
 import polygogoImg from "../assets/polygogo.jpg";
 import beamformImg from "../assets/beamform_s.jpg";
 import convolverImg from "../assets/convolver_s.jpg";
@@ -13,14 +14,24 @@ import hapticwaveImg from "../assets/hapticwave.jpg";
 import colorationImg from "../assets/wfs_coloration_s.jpg";
 import mathesis from "../assets/hohnerlein2016_ma_thesis_beamforming_CTC.pdf";
 import bathesis from "../assets/hohnerlein2013_ba_thesis_wfs_coloration.pdf";
+import serviceJustizImg from "../assets/service-justiz.png";
 
 const projects: CardProps[] = [
+  {
+    date: "2023-12",
+    title: "service.justiz.de",
+    href: "https://service.justiz.de",
+    body: "Full-stack web application, producing multi-page paper forms from guided questionnaire flows.",
+    image: serviceJustizImg,
+    imageAlt:
+      "Advertisement picture for Justiz-Services, Rechtsinformationen und digitale Anwendungen, next to an illustration of phone showing radio buttons.",
+  },
   {
     date: "2020-10",
     title: "Faradgang Berlin e.V.",
     href: "https://faradgang.berlin",
     body: "Non-profit Bike NGO that fixes bikes for and with people in need.",
-    image: faradgangLogo,
+    image: faradgangLogoColor,
     imageAlt:
       "Childishly drawn bicycle with the words FARADGANG e.V. underneath.",
   },
@@ -61,7 +72,7 @@ const projects: CardProps[] = [
   },
   {
     date: "2016-02",
-    title: "Beamforming for Transaural Audio (MA Thesis)",
+    title: "Beamforming for Transaural Audio",
     href: mathesis,
     body: "A mixed, array-based speaker system, where traditional LSFI beamforming and path estimation are simultaneously employed in their respective comfortable frequency range.",
     image: beamformImg,
@@ -87,7 +98,7 @@ const projects: CardProps[] = [
   },
   {
     date: "2015-08",
-    title: "HapticWave",
+    title: "Oculus Research: HapticWave",
     href: "http://dl.acm.org/citation.cfm?id=2929469",
     body: "Designed and tested the hard/software of a prototype that delivers directional haptic cues to your hand to augment VR.",
     image: hapticwaveImg,
@@ -96,7 +107,7 @@ const projects: CardProps[] = [
   },
   {
     date: "2014-05",
-    title: "Coloration in Wave Field Synthesis (BA Thesis)",
+    title: "Coloration in Wave Field Synthesis",
     href: bathesis,
     body: "Investigated the perceived coloration of a synthesized point source presented by stereophony and Wave Field Synthesis using between 14 and 3584 speakers.",
     image: colorationImg,
