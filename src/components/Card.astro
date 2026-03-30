@@ -36,15 +36,24 @@ const { href, title, date, body, image, imageAlt } = Astro.props;
   .link-card {
     list-style: none;
     display: flex;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .link-card a {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 5%;
   }
 
   p {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-bottom: 0;
   }
 
   .link-card:is(:hover, :focus-within) {
-    background-color: rgb(var(--accent));
+    background-color: var(--accent-soft);
   }
 
   img {
