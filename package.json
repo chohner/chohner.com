@@ -14,19 +14,12 @@
   "dependencies": {
     "@fontsource/eczar": "^5.2.8",
     "@fontsource/ibm-plex-mono": "^5.2.7",
-    "astro": "^6.4.7",
+    "astro": "^6.4.6",
     "biblatex-csl-converter": "^3.6.0",
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
     "oxlint": "^1.69.0"
   },
-  "packageManager": "pnpm@10.33.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "core-js-pure",
-      "esbuild",
-      "sharp"
-    ]
-  }
+  "packageManager": "pnpm@11.7.0"
 }
