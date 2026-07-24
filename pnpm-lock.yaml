@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fontsource/eczar':
-        specifier: ^5.2.8
-        version: 5.2.8
+        specifier: ^5.3.0
+        version: 5.3.0
       '@fontsource/ibm-plex-mono':
         specifier: ^5.2.7
         version: 5.2.7
@@ -359,8 +359,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/eczar@5.2.8':
-    resolution: {integrity: sha512-Kifyxzqbqa1iXCLJ9Fa1yfDe+7bcai8FqJN3iEHYuFVTc7WXo67a95qb/+tUCnL4gwt7N6PCmdGeLJO/JLGC8g==}
+  '@fontsource/eczar@5.3.0':
+    resolution: {integrity: sha512-HIDqQVs2NhNlm8W0wXABW45H+CGIJ7EhsYZ4iN0/Wz+FByYS+vlxvxGokN4x4A6Bbmru4kAujE7VM0CuoR47ZA==}
 
   '@fontsource/ibm-plex-mono@5.2.7':
     resolution: {integrity: sha512-MKAb8qV+CaiMQn2B0dIi1OV3565NYzp3WN5b4oT6LTkk+F0jR6j0ZN+5BKJiIhffDC3rtBULsYZE65+0018z9w==}
@@ -1967,7 +1967,7 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@fontsource/eczar@5.2.8': {}
+  '@fontsource/eczar@5.3.0': {}
 
   '@fontsource/ibm-plex-mono@5.2.7': {}
 
