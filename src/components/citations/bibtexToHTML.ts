@@ -1,4 +1,4 @@
-import { BibLatexParser, CSLExporter } from "biblatex-csl-converter";
+import { BibLatexParser, CSLExporter } from "bibliojson";
 import CSL from "citeproc";
 import locale from "./locales-en-us.xml?raw"; // source: https://github.com/citation-style-language/locales/
 import citationStyle from "./ieee-with-url.csl?raw"; // source: https://github.com/citation-style-language/styles/
@@ -16,7 +16,7 @@ export function bibtexToHTML(bibtexString: string) {
       retrieveLocale: () => locale,
       retrieveItem: (id: string) => clsBibliography[id],
     },
-    citationStyle
+    citationStyle,
   );
   citeproc.updateItems(Object.keys(clsBibliography));
   return citeproc.makeBibliography()[1];

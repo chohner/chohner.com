@@ -17,9 +17,9 @@ importers:
       astro:
         specifier: ^7.2.0
         version: 7.2.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
-      biblatex-csl-converter:
-        specifier: ^3.6.0
-        version: 3.6.0
+      bibliojson:
+        specifier: ^4.0.4
+        version: 4.0.4
       citeproc:
         specifier: ^2.4.63
         version: 2.4.63
@@ -845,10 +845,9 @@ packages:
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
 
-  biblatex-csl-converter@3.6.0:
-    resolution: {integrity: sha512-AOzGhifgtYKL7kFkBHsRr+2ndGqEVsBHJ9AaMrV4eplWrZEvZ/LMIYsP/GuekYnHy3K1AGWvrPsWMP41uVwfQw==}
+  bibliojson@4.0.4:
+    resolution: {integrity: sha512-3oLdf+0qu2j9YOFXGrLPkIeJVXmwDUsrz+vMdPSm//JjqJNtB3hoJcIawjhMSqHe+y9YUL1nMQmf/RCHjnbhKA==}
     engines: {node: '>=22'}
-    deprecated: 'This package has been renamed to bibliojson. Please update your dependencies: npm install bibliojson.'
 
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -2214,7 +2213,7 @@ snapshots:
 
   bail@2.0.2: {}
 
-  biblatex-csl-converter@3.6.0:
+  bibliojson@4.0.4:
     dependencies:
       xregexp: 5.1.2
 
