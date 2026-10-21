@@ -18,8 +18,8 @@ importers:
         specifier: ^7.3.2
         version: 7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       bibliojson:
-        specifier: ^4.0.4
-        version: 4.0.4
+        specifier: ^4.1.0
+        version: 4.1.0
       citeproc:
         specifier: ^2.4.63
         version: 2.4.63
@@ -845,8 +845,8 @@ packages:
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
 
-  bibliojson@4.0.4:
-    resolution: {integrity: sha512-3oLdf+0qu2j9YOFXGrLPkIeJVXmwDUsrz+vMdPSm//JjqJNtB3hoJcIawjhMSqHe+y9YUL1nMQmf/RCHjnbhKA==}
+  bibliojson@4.1.0:
+    resolution: {integrity: sha512-3nED0ENvAP4yroghehwK6AmlOaTTn7EvIPSpFee5Lrfkmge/ZDP891yJGZpSIqAzp8G0o5ccgHcgHZjEzHYxUA==}
     engines: {node: '>=22'}
 
   boolbase@1.0.0:
@@ -2196,7 +2196,7 @@ snapshots:
 
   bail@2.0.2: {}
 
-  bibliojson@4.0.4:
+  bibliojson@4.1.0:
     dependencies:
       xregexp: 5.1.2
 
