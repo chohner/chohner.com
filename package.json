@@ -14,12 +14,12 @@
   "dependencies": {
     "@fontsource/eczar": "^5.3.0",
     "@fontsource/ibm-plex-mono": "^5.3.0",
-    "astro": "^7.4.7",
-    "bibliojson": "^4.0.4",
+    "astro": "^7.4.13",
+    "bibliojson": "^4.1.0",
     "citeproc": "^2.4.63"
   },
   "devDependencies": {
-    "oxlint": "^1.85.0"
+    "oxlint": "^1.94.0"
   },
   "packageManager": "pnpm@12.4.2"
 }
